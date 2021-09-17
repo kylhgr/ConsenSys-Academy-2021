@@ -4,7 +4,7 @@
 ## Working w/ Private & Public Keys
 
 **Public Key Cryptography**
-    Public Key Cryptography --> can create an asymetric power imbalance
+    Public Key Cryptography can create an asymetric power imbalance
         - TLDR: difficul to access an individual private key due to the power of cryptography
 
     PKC allows blockchains to prove peer-to-peer transactions & establish identitites from the private key
@@ -17,7 +17,7 @@
 2. training users to self-manage private keys w/out support
 
 
-**+Keys & the sections of public key cryptography**
+**Keys & the sections of public key cryptography**
 1. General public keys
 2. Blockchain/ETH specific public keys
 3. Advanved public keys
@@ -35,12 +35,14 @@ General Public Keys Resources
 Blockchain & Etheruem Specific Resources
 *How cryptography is used with Blockchains & Ethereum*
     - how pricate keys are used to generate ETH accounts: 
-    - all ETH accounts start with the predix `0x`: coded in hexadecimal format
+    - all ETH accounts start with the prefix `0x`: coded in hexadecimal format
         - [Book Excerpt: Keys and Addresses (Mastering Ethereum](https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc)
         - [How are ethereum addresses generated?](https://ethereum.stackexchange.com/questions/3542/how-are-ethereum-addresses-generated)
 
 Advanced Public Key Resources
     - [the cryptopals crypto challenges](https://cryptopals.com/)
 
-    Next Sections: 1.4
     
+
+Next Sections: Chatper 1.4
+
