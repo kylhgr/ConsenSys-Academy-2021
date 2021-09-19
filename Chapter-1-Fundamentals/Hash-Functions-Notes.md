@@ -20,4 +20,13 @@ The abovve 3 components combines to estlabish decentralized file integrity.
         
         fault in the proposed solution --> fate of entire ecosystem/monetary system depends on the organization/people operating the mint
 
-        considerations: payee needs to know the previous owner did not sign an earlier transaction, how do we accomplish this without a trusted party? --> transaction must be publically accessible & an agreed upon single source of truth for the history of transaction
+- Considerations
+    - payee needs to know the previous owner did not sign an earlier transaction, how do we accomplish this without a trusted party? --> transaction must be publically accessible & an agreed upon single source of truth for the history of transaction. *(a collection of nodes will agee & verify the first recieved transaction)
+    
+    - how do we know the transactions have not been manipulated, which record is true?
+
+#### Satoshi on Hasing & how it helps solve double spending
+**Using Hashing to create a "timestamp server"**
+
+- What is a Timestamp Server?: takes a hash of a block of items to be time stampped and widely publishing the hash
+    - the timestamp proves that the data existed at a specific time, in logical order .. each timestamp will include the previous time stamp in its hash, forming a chain with each additional time stamp reinforcing the previous stamp. ![[https://twitter.com/Phil_Lewis_/status/1439346426014838785?s=20]]
