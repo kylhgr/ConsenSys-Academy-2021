@@ -29,4 +29,4 @@ The abovve 3 components combines to estlabish decentralized file integrity.
 **Using Hashing to create a "timestamp server"**
 
 - What is a Timestamp Server?: takes a hash of a block of items to be time stampped and widely publishing the hash
-    - the timestamp proves that the data existed at a specific time, in logical order .. each timestamp will include the previous time stamp in its hash, forming a chain with each additional time stamp reinforcing the previous stamp. ![[https://twitter.com/Phil_Lewis_/status/1439346426014838785?s=20]]
+    - the timestamp proves that the data existed at a specific time, in logical order .. each timestamp will include the previous time stamp in its hash, forming a chain with each additional time stamp reinforcing the previous stamp. 
