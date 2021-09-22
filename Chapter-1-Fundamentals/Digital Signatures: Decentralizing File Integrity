@@ -1,4 +1,26 @@
-Public key cryptography is also used for #DigitalSigning
+Public key cryptography is also used for **Digital Signing**
 
 ---
 # Digital Signing
+signing validates who is making a transaction on the blockchain
+
+to confirm who made the inital transaction the public/private key relationships is reversed, the private key can encrypt data, the public key is required to decrypt that data.
+- use case: proof that a public transaction was initiated by linking the transaction to the private key
+    - using My public key to decrypt a message, validates that the origin came from my private key
+        - *digital signing is not used to keep a message private, only to determine the origin of a message/transaction*
+
+**How digital signing works**
+1. take a hash of the document *(hash is similiar to a small digital fingerprint)*
+2. the private key encrypts the hash
+3. the private key is includedd in the hash when the data is shared to other users/platforms
+4. the data can only be de-crypted using the original users public key
+5. users can take a new hash of the data and confirm that the hashes match, validating the data and its origin.
+
+If the data is altered in anyway, the hash would change and not match the original hash that was taken from the inital user, the new hash cannot be decrypted by the original users public key either
+
+The Advantage of Digital Signing
+- dont have the encrypt the entirety of what youre signing, can sign multiple GB of data with a few hundred bits
+- signing is used in a simiarl way to verify that a transaction legitimately originated with the owner of an account
+
+---
+# Digital Signatures
