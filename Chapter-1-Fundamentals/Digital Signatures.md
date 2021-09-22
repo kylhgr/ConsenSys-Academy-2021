@@ -10,3 +10,8 @@ Digital signature use aa combination of key signing and hashing to create a dece
 a signature is made when a hash of the message is signed by the private key of the account holder, the encryption process is also apart of the hashing process.
 
 signed transaction can be thought of as a "hash of a hash"
+*the digital signature will look like a normal hash, but it can only be decrypted by the origins owners public key to confirm identity*
+
+the digital signature acts as a protective casing around transaction daata
+
+---
