@@ -20,7 +20,7 @@ If the data is altered in anyway, the hash would change and not match the origin
 
 The Advantage of Digital Signing
 - dont have the encrypt the entirety of what youre signing, can sign multiple GB of data with a few hundred bits
-- signing is used in a simiarl way to verify that a transaction legitimately originated with the owner of an account.
+- signing is used in a simiarl way to verify that a transaction legitimately originated with the owner of an account
 
 ---
 # Digital Signatures
