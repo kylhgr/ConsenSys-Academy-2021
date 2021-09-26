@@ -37,5 +37,11 @@ Each mechanism includes rules to determine what is a valid block
 **Distributed Computing**
 
 Origin: 1970s, airplans moved to electron control systems, manufactuers wanted to make sure that if a certain part of the electronics gave out while the plane is airborne, the whole plane wouldnt shut down.
+    - early works: non-adversarial systems: any faults that happened in a computer network, where the result of a natural system error, not hacking or active attacks
 
-consensus protocols are used to allow computers to work together, and let different servers agree on the state of a system!
+consensus protocols are used to allow computers to work together, and let different servers agree on the state of a system!, *good consensus protocols would continue to function with some errors*
+    - the ability of a consensus protocol to adapt to failure = resillience
+
+consensus protocols help systems maintain historical information = state
+    - state: set of variables describing a certain system at a specific time, when the variables are together they paint a picture of the architecture.
+
