@@ -9,14 +9,14 @@ Consensus Mechanism is the economic mechanism that is implemented to achieve the
 
 ## Implementing Consensus Mechanisms
 **Different Approaches**
-    1. PBFT: practical byzantine fault tolerance
-        - high performance, state machine replication algorithm: allows distributed computing systems to reach consensus 
-        - depends on the fault tolerance of a system
-            - mathmatical verification of messages
-            - can tolerate 1/3 dishonest or absent participation
-            - functioning network with 1:4 faulty nodes = PBFT 
-        - ensure a minimum number of nodes reaches consensus before appending to the shared ledger
-            - once an agreement is verified, the ledger is updated
+1. PBFT: practical byzantine fault tolerance
+    - high performance, state machine replication algorithm: allows distributed computing systems to reach consensus 
+    - depends on the fault tolerance of a system
+        - mathmatical verification of messages
+        - can tolerate 1/3 dishonest or absent participation
+        - functioning network with 1:4 faulty nodes = PBFT 
+    - ensure a minimum number of nodes reaches consensus before appending to the shared ledger
+        - once an agreement is verified, the ledger is updated
     2. Proof of Work --> Secure State Machine Replication
         - currently used by Bitcoin and Etheruem to maintain consensus
     3. Proof of Stake --> Secure Stata Machine Replication
